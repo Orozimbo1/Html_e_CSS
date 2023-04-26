@@ -583,3 +583,53 @@ footer .wrapper:after {
   margin-top: 40px;
   text-align: center;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    position: absolute;
+    left: 50px;
+  }
+
+  .nav-container ul {
+    float: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  .nav-container ul li {
+    position: relative;
+    margin: 0 10px;
+    float: none;
+    display: inline-block;
+  }
+
+  #search-form {
+    padding: 25em 0 5em;
+  }
+
+  #search-form form {
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #search-form form input,
+  #search-form form select {
+    display: block;
+    margin: 0 0 25px;
+    width: 100%;
+    border-width: 0px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  #lastjobs-container.wrapper,
+  #status-container.wrapper,
+  #blog-container.wrapper,
+  .wrapper {
+    max-width: 960px;
+    padding: 0 2em;
+  }
+}
