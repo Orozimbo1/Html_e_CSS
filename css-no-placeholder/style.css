@@ -1,0 +1,15 @@
+label, input {
+  display: block;
+  margin: 1em;
+  padding: 10px 20px;
+}
+
+#name::placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#name:placeholder-shown {
+  border: 2px solid blue;
+}
