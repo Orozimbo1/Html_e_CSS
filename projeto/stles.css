@@ -34,3 +34,30 @@ nav a {
   margin: 1rem 0;
   gap: 5rem;
 }
+
+.news-items {
+  border: 1px solid #333;
+  margin: 1.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.34) 4px 6px 8px;
+  padding: 1rem;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.news-items img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-items a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.news-items a:hover {
+  color: #7c7b7b;
+}
