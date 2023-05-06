@@ -84,3 +84,13 @@ aside a {
 aside a:hover {
   color: #b9b9b9;
 }
+
+/* Rodapé */
+
+footer {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2em;
+}
